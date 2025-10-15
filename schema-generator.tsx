@@ -173,7 +173,6 @@ function createFaqSchemaFromHtml(content: GeneratedContent) {
                     "name": questionText,
                     "acceptedAnswer": {
                         "@type": "Answer",
-// FIX: Complete the truncated function to resolve syntax errors.
                         "text": answerText.trim(),
                     },
                 });
